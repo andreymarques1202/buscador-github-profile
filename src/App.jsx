@@ -29,7 +29,8 @@ function App() {
   }
 
   return (
-   <div className="container">
+   <div className="wrapper">
+    <div className="container">
       <div className="title-container">
         <img src={iconGitHub} alt="icone do github" />
         <h1>Perfil</h1>
@@ -51,6 +52,7 @@ function App() {
       {showProfile === false && (
         <NotFoundProfile/>
       )}
+   </div>
    </div>
   )
 }
